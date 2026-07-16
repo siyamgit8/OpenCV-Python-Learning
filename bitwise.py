@@ -26,6 +26,5 @@ cv.imshow('Bitwise XOR' , bitwise_xor) # return the region where the two images 
 bitwise_not = cv.bitwise_not(rectangle , circle)
 cv.imshow('Bitwise_NOT' , bitwise_not )
 
-
 cv.imshow('Image', img)
 cv.waitKey(0)

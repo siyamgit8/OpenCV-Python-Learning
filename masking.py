@@ -11,7 +11,7 @@ circle = cv.circle(blank.copy() , (img.shape[1]//2 , img.shape[0]//2) , 100 , 25
 # cv.imshow('mask',mask)
 
 wierd_shape = cv.bitwise_and(circle, rectangle)
-cv.imshow('wierd shape ' , wierd_shape)
+cv.imshow('wierd shape ' , wierd_shape) 
 
 masked = cv.bitwise_and(img , img,  mask = wierd_shape) # similar to the masked we used to do in capcut software 
 cv.imshow('masked ( wired shaped ) -->' ,masked )
